@@ -16,7 +16,7 @@
 
 - For the rendering part it uses a very basic part of Open GL. Without any interest in shading. As I said, it is specially focused on the usage of C++.
  
- 
+- The models are made by myself and also the fbx importer class. 
   </p>
 
   
