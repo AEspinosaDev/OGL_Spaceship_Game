@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\cameras">
+      <UniqueIdentifier>{62abd2bf-7261-484b-9f50-701711c58361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\elements">
+      <UniqueIdentifier>{2bd604ec-be1e-4851-bb25-1bf397987c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\models">
+      <UniqueIdentifier>{b693ab97-1d04-41bb-b0cc-bf1eaac59cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\base">
+      <UniqueIdentifier>{59c7660b-eae8-4323-aaa7-3ea47fe4b0b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\core">
+      <UniqueIdentifier>{6d1be557-8f7c-4f51-8194-ce890bc0e00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\cameras">
+      <UniqueIdentifier>{04fc53fc-e9a9-48bd-b832-e63abec9fcc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\elements">
+      <UniqueIdentifier>{674c0fce-5934-4513-8c56-4b1fdc70030c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\models">
+      <UniqueIdentifier>{dbadd68f-37c7-4660-8e3c-7ac523651e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\base">
+      <UniqueIdentifier>{6f304638-bf7e-4a10-a08f-573aae5576e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\core">
+      <UniqueIdentifier>{68051500-2b16-40b0-bb47-c123c1dd53fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\gameClasses">
+      <UniqueIdentifier>{73593e34-a4cf-47e4-aec0-484354a41ed0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp">
+      <Filter>Archivos de origen\cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="camera_fps.cpp">
+      <Filter>Archivos de origen\cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraFly.cpp">
+      <Filter>Archivos de origen\cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="composite.cpp">
+      <Filter>Archivos de origen\base</Filter>
+    </ClCompile>
+    <ClCompile Include="cube.cpp">
+      <Filter>Archivos de origen\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="cylinder.cpp">
+      <Filter>Archivos de origen\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Archivos de origen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>Archivos de origen\cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="loader_obj.cpp">
+      <Filter>Archivos de origen\models</Filter>
+    </ClCompile>
+    <ClCompile Include="model_mesh_triangles.cpp">
+      <Filter>Archivos de origen\models</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Archivos de origen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="solid.cpp">
+      <Filter>Archivos de origen\core</Filter>
+    </ClCompile>
+    <ClCompile Include="sphere.cpp">
+      <Filter>Archivos de origen\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="teapot.cpp">
+      <Filter>Archivos de origen\elements</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle.cpp">
+      <Filter>Archivos de origen\models</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineJson.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="cuboid.cpp">
+      <Filter>Archivos de origen\elements</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Archivos de encabezado\cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_fly.h">
+      <Filter>Archivos de encabezado\cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="camera_fps.h">
+      <Filter>Archivos de encabezado\cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="cube.h">
+      <Filter>Archivos de encabezado\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="cylinder.h">
+      <Filter>Archivos de encabezado\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>Archivos de encabezado\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="teapot.h">
+      <Filter>Archivos de encabezado\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="loader_obj.h">
+      <Filter>Archivos de encabezado\models</Filter>
+    </ClInclude>
+    <ClInclude Include="model_mesh_triangles.h">
+      <Filter>Archivos de encabezado\models</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>Archivos de encabezado\models</Filter>
+    </ClInclude>
+    <ClInclude Include="composite.h">
+      <Filter>Archivos de encabezado\base</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3d.h">
+      <Filter>Archivos de encabezado\base</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Archivos de encabezado\core</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Archivos de encabezado\core</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Archivos de encabezado\cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="solid.h">
+      <Filter>Archivos de encabezado\core</Filter>
+    </ClInclude>
+    <ClInclude Include="cuboid.h">
+      <Filter>Archivos de encabezado\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="text.h">
+      <Filter>Archivos de encabezado\elements</Filter>
+    </ClInclude>
+    <ClInclude Include="cubeGame.h">
+      <Filter>Archivos de encabezado\gameClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Archivos de encabezado\gameClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="proceduralGenerator.h">
+      <Filter>Archivos de encabezado\gameClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Archivos de encabezado\core</Filter>
+    </ClInclude>
+    <ClInclude Include="cubeScene.h">
+      <Filter>Archivos de encabezado\gameClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="collider.h">
+      <Filter>Archivos de encabezado\gameClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="obstacle.h">
+      <Filter>Archivos de encabezado\gameClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="ranking.h">
+      <Filter>Archivos de encabezado\gameClasses</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

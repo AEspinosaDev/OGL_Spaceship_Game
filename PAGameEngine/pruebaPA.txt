@@ -1,0 +1,2 @@
+hola como estas
+Introduce un numero:Gracias por introducir el 43
