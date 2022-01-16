@@ -4,45 +4,19 @@
  <br> 
     </br>
 
-  <img src=https://user-images.githubusercontent.com/79087129/149583797-9c4f7c4e-a849-4e47-a69c-1e5ba857a72b.png>
+  <img src=https://user-images.githubusercontent.com/79087129/149679275-ba06338a-1c0f-4035-abd0-22b483bd7c76.gif>
    <br> 
     </br>
  
-    
-  This project implements the basic forward rendering.  
-    
-  Lenguages im using here: C,C++ and GLSL for the shading part.
-  
-  There are a lot of shaders implemented, each one of them focusing on one specific part of the classic rendering techniques. They go from the simplest tasks to the more complex ones.
-  
-  Most of the practical concepts are encapsulated in very simple classes. 
-  
-  It supports lightning and basic types of textures. You can import your own meshes. On a close future shadows will be added in a new shader.
-  
-  I use GLUT for the context and ASSIMP for importing meshes.
-  
-  I believe it is a good example for people who are introducing in the graphics world.
-  
-  3D MODELS AND TEXTURES ARE ALL MADE BY ME. ANY USAGE SHOULD BE ACCREDITED.
+ - This game runs on a handmade engine written entirely in C++ made by myseld and a university colleage some years ago.  
+
+- It was a project for a subject focused on the learning of C++.
+
+- It is a great example for students trying to learn the basics of C++. The code showcases the basics of the object oriented languages paradigm. 
+
+- For the rendering part it uses a very basic part of Open GL. Without any interest in shading. As I said, it is specially focused on the usage of C++.
+ 
+ 
   </p>
- <p>
-   <h2 align="center">CONTROLS<br> 
-    </br></h2>
-    
-  You can move freely by using the mouse and WASD.
-  
-  R = Reset position
-  
-  O = Turn on/off flashlight
-  
-  2 = Decrease light intensity
 
   
-  8 = Increase light intensity
-  
-  4 = Move light left
-  
-  6 = Move light right
-  
-  
-  </p>  
