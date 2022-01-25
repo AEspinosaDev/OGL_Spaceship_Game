@@ -8,7 +8,7 @@
    <br> 
     </br>
  
- - This game runs on a handmade engine written entirely in C++ made by myseld and a university colleage some years ago.  
+ - This game runs on a handmade engine written entirely in C++ made by myseld and [Rogarsu2014](https://github.com/Rogarsu2014) some years ago.  
 
 - It was a project for a subject focused on the learning of C++.
 
